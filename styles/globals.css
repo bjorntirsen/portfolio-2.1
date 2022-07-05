@@ -1,4 +1,5 @@
 :root {
+    /* colors */
     --text-light: #222222;
     --textOnWhite-light: #222222;
     --primary-light: #f39c12;
@@ -26,6 +27,10 @@
     --muted2-dark: #d8d8d8;
     --white-dark: rgba(255, 255, 255, 0.863);
     --image-dark: brightness(50%);
+
+    /* non-colors */
+    --font-sans-serif: "Open Sans", sans-serif;
+    --font-serif: "Merriweather", serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -100,7 +105,7 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-sans-serif);
     background-color: var(--light);
     color: var(--text);
 }

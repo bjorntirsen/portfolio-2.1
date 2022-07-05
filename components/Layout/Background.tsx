@@ -17,10 +17,13 @@ const Background = ({ forPage, children }: Props): JSX.Element => {
     return (
         <div className={`${classes.background} ${styling} ${classes.zoom}`}>
             <Image
+                layout="fill"
                 src="https://res.cloudinary.com/bjorntirsen/image/upload/v1657034220/portfolio-3/aaron-burden-unsplash_pjzscn.jpg"
                 alt="Autumn forest road"
                 width="2057px"
                 height="2742px"
+                objectFit="cover"
+                objectPosition="center"
             />
             {children}
         </div>

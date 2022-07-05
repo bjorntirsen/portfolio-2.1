@@ -17,19 +17,20 @@ const LandingPage: NextPage = () => {
                 <OuterTile forPage="Landing">
                     <Background forPage="Landing" />
                     <main className={`${classes.container}`}>
-                        <h1 className="fw-bolder font-monospace pt-4 text-center text-dark text-uppercase">
+                        <h1 className={classes.heading}>
                             Developing the Developer
                         </h1>
-                        <h2 className="fw-light text-center text-dark text-uppercase">
+                        <h2 className={classes.subheading}>
                             the Björn Tirsén Portfolio
                         </h2>
                         <Image
                             src="https://res.cloudinary.com/bjorntirsen/image/upload/v1657033506/portfolio-3/profilephoto_w1024_gdlpmt.jpg"
                             alt="Björn Tirséns face"
-                            width="1024px"
-                            height="1024px"
+                            width="450px"
+                            height="450px"
+                            style={{borderRadius: "50%"}}
                         />
-                        <p className="font-italic font-monospace p-1 text-center text-dark mx-auto">
+                        <p className={classes.paragraph}>
                             Witness my journey: from finding my passion for
                             software development to graduating as a Junior
                             Fullstack Web Developer in May 2022.

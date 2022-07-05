@@ -1,4 +1,29 @@
 .container {
     width: 90%;
-    max-width: 40rem;
+    max-width: 55rem;
+    background-color: var(--light_transparent);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.heading {
+    /* fw-bolder font-monospace pt-4 text-center text-dark text-uppercase */
+    font-family: var(--font-serif);
+    text-transform: uppercase;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.subheading {
+    /* fw-light text-center text-dark text-uppercase */
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: calc(1.325rem + 0.9vw);
+}
+
+.paragraph {
+    /* font-italic font-monospace p-1 text-center text-dark mx-auto */
+    font-family: var(--font-serif);
+    max-width: 80%;
+    margin: 1rem auto;
 }
