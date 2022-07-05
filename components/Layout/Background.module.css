@@ -1,0 +1,35 @@
+.background {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background_landing {
+  overflow: hidden;
+}
+
+/* .background_projects {
+  background-image: url('../images/autumn_w1400.jpg');
+} */
+
+.zoom {
+  transform: scale(1.1);
+  animation: zoom 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.1);
+  }
+}
