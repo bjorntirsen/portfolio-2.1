@@ -5,7 +5,7 @@ import Link from "next/link";
 import Background from "../components/Layout/Background";
 import OuterTile from "../components/Layout/OuterTile";
 import Wrapper from "../components/Layout/Wrapper";
-import classes from "./LandingPage.module.css";
+import classes from "./index.module.css";
 
 const LandingPage: NextPage = () => {
     return (
